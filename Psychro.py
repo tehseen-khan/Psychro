@@ -4,13 +4,13 @@ from tkinter import messagebox
 from CoolProp.HumidAirProp import HAPropsSI
 
 root = Tk()
-root.geometry('400x160')
+root.geometry('300x160')
 root.title('Psychrometrics')
 f1 = Frame(master=root, borderwidth=2, pady=5).grid(row=0, column=0)
 f2 = Frame(root, borderwidth=2).grid(row=1, column=0)
 f3 = Frame(root, borderwidth=2).grid(row=2, column=0)
 
-l1_label = Label(f1, text='Psychrometric Calculations', bg='#c3ff0f', font=("Arial Bold", 16)).grid(row=0, column=0)
+l1_label = Label(f1, text='Psychrometry', bg='#c3ff0f', font=("Arial Bold", 16)).grid(row=0, column=0)
 f21 = Frame(f2, borderwidth=2).grid(row=1, column=0)
 
 f22 = Frame(f2, borderwidth=2).grid(row=1, column=0)
